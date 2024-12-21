@@ -1,0 +1,78 @@
+/* App.css */
+
+/* General Page Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ), 
+    url('C:\Users\shams\Downloads\stockmarket\fronted\stockproject\stock-dashboard\public\6256878.jpg'); /* Add your image path here */
+  background-size: cover; /* Ensure the image covers the entire screen */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Keep the image fixed during scrolling */
+  color: #ffffff; /* Adjust text color for visibility */
+}
+
+/* Heading Style */
+h1 {
+  color: #ffffff; /* Ensure the heading is readable */
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add subtle shadow for better readability */
+}
+
+/* Container */
+.MuiContainer-root {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Text Fields and Buttons */
+.MuiTextField-root {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent */
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.MuiButton-containedPrimary {
+  background-color: #1976d2;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #155a9c;
+}
+
+/* Table Styling */
+.MuiTableContainer-root {
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Rounds table corners */
+}
+
+.MuiTableCell-head {
+  background-color: #1976d2;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  border-right: 1px solid #ddd; /* Separator */
+}
+
+.MuiTableCell-body {
+  color: #333;
+}
+
+.MuiPagination-ul {
+  justify-content: center;
+}
